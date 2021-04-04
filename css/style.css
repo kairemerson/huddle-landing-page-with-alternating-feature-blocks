@@ -9,18 +9,17 @@
 body{
     font-size: 18px;
     font-family: 'Open Sans';
-    height: 100vh;
 }
 h1,h2,h3{
     font-family: 'Poppins';
 }
 .container-top{
-    padding: 0 5%;
+    padding: 0 5% 50px 5%;
     background-color: hsl(193, 100%, 96%);
     min-height: 100%;
 }
 .container-body{
-    padding: 80px 5%;
+    padding: 80px 5% 40px;
 }
 header{
     display: flex;
@@ -96,6 +95,9 @@ section.brief button{
     font-weight: 600;
     margin-top: 10px;
 }
+section.brief button:hover{
+    opacity: 0.6;
+}
 section.information{
     display: flex;
     flex-direction: row-reverse;
@@ -107,7 +109,8 @@ section.information{
     max-width: 1150px;
     box-shadow: 2px 2px 10px 0px rgba(116, 116, 116, 0.2);
 }
-section.information div{
+section.information h2{
+    color: rgba(29, 29, 29, 0.8);
 
 }
 section.information p{
@@ -115,8 +118,121 @@ section.information p{
     font-weight: 500;
     color: rgba(99, 98, 98, 0.7);
     margin-top: 20px;
+    
 }
-section.grow img{
+section.information img{
     max-width: 400px;
     min-width: 200px;
 }
+section.flowing{
+    flex-direction: row;
+}
+section.call-to-action{
+    max-width: 64%;
+    min-width: 40%;
+    background-color: white;
+    box-shadow: 2px 2px 10px 0px rgba(116, 116, 116, 0.2);
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    bottom: -130px;
+}
+section.call-to-action h2{
+    font-size: 1.8em;
+
+}
+section.call-to-action button{
+    padding: 25px;
+    width: 50%;
+    margin-top: 30px;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 3px 3px 10px 0px rgba(116, 116, 116, 0.5);
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: .3px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+section.call-to-action button:hover{
+    opacity: .6;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: rgba(255, 255, 255, .7);
+    padding: 200px 6% 0 9%;
+}
+footer > img{
+    width: 230px;
+    position: relative;
+    left: -10px;
+}
+footer > div{
+    display: flex;
+}
+.div-footer{
+    margin: 40px 0px;
+    margin-right: 120px;
+}
+.div-footer p{
+    margin-bottom: 20px;
+}
+.contact{
+    font-size: .8em;
+    margin-top: 20px;
+}
+.contact img{
+    margin-right: 20px;
+}
+.contact div img{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.contact > div{
+    display: flex;
+    align-items: flex-start;
+}
+.contact > div p{
+    margin: 0;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.about p{
+    cursor: pointer;
+}
+.about p:hover{
+    text-decoration: underline;
+}
+.social{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.social > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+}
+.social i{
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8x;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social i:hover{
+    border-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+}
+.social p{
+    font-size: .6em;
+}
+
