@@ -127,6 +127,9 @@ section.information img{
 section.flowing{
     flex-direction: row;
 }
+section.users p{
+    max-width: 480px;
+}
 section.call-to-action{
     max-width: 64%;
     min-width: 40%;
@@ -215,7 +218,7 @@ footer > div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 240px;
+    height: 210px;
 }
 .social i{
     border: 1px solid;
@@ -247,6 +250,10 @@ footer > div{
         height: 30px;
         font-size: .7em;
     }
+    #background{
+        width: 95%;
+        height: auto;
+    }
     section.brief div{
         width: 100%;
         margin-right: 0;
@@ -266,6 +273,7 @@ footer > div{
     }
     .container-body{
         padding-top: 30px;
+        padding-bottom: 0;
     }
     section.information{
         flex-direction: column;
@@ -278,6 +286,7 @@ footer > div{
     }
     section.information h2{
         font-size: 1.4em;
+        margin-top: 20px;
     }
     section.information p{
         font-size: .8em;
@@ -296,7 +305,7 @@ footer > div{
         max-width: 100%;
         margin: 0;
         padding: 44px 5px;
-        bottom: -110px;
+        bottom: -70px;
     }
     section.call-to-action h2{
         font-size: .98em;
@@ -310,6 +319,9 @@ footer > div{
     }
     footer{
         padding: 130px 5% 0 5%;
+    }
+    .div-footer{
+        margin-right: 0;
     }
     footer > img{
         width: 180px;
@@ -339,6 +351,6 @@ footer > div{
         align-items: center;
     }
     .social p{
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
